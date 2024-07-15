@@ -106,7 +106,7 @@ const Nav = () => {
                     </div>
                     <div className='hidden sm:flex'>
                         <button className='px-5 bg-black border border-none rounded-full text-white
-                 shadow transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl'>
+                 shadow transition delay-150 duration-500 hover:scale-105 hover:shadow-2xl'>
                             Start your free trial
                         </button>
                     </div>

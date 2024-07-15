@@ -61,12 +61,12 @@ const MainSection = () => {
                 </div>
                 <div className='block mx-6 sm:flex sm:space-x-4 justify-center pt-8'>
                     <button className='w-full flex justify-center py-4 lg:px-20 md:py-4 md:px-9 mid:py-4 mid:px-8 sm:py-3 px-16 bg-black border border-none rounded-full text-white
-                 transform transition-transform duration-500 hover:scale-105 hover:shadow-xl'>
+                 transition delay-150 duration-500 hover:scale-105 hover:shadow-xl'>
                         <Image src={imgAppStore} alt='appStore'/>
                     </button>
 
                     <button className='w-full flex justify-center py-4 mt-4 lg:px-20 md:py-4 md:px-9 mid:py-4 mid:px-8 sm:mt-0 sm:py-3 px-16 bg-black border border-none rounded-full text-white
-                 transform transition-transform duration-500 hover:scale-105 hover:shadow-xl'>
+                 transition delay-150 duration-500 hover:scale-105 hover:shadow-xl'>
                         <Image src={imgGooglePLay} alt='googlePlay'/>
                     </button>
                 </div>
