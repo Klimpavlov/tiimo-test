@@ -7,10 +7,20 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        '5.5xl': '3.25rem',
+      },
+      screens: {
+        'mid': {'min': '640px', 'max': '767px'},
+      },
+      fontFamily: {
+        recoleta: ['var(--font-recoleta)'],
+        SFPro: ['var(--font-SFPro)']
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+            "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
