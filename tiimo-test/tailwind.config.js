@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'custom-dark': '#161613',
+      },
       fontSize: {
         '5.5xl': '3.25rem',
       },

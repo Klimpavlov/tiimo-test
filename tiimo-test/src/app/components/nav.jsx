@@ -34,13 +34,13 @@ const Nav = () => {
             <div className='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4'>
                 <div className='nav-logo flex gap-1.5 items-center w-full sm:w-auto max-w-xs sm:max-w-full'>
                     <div>
-                        <Image src={logoImage} alt="Tiimo Logo Image" width={35} height={28}/>
+                        <Image src={logoImage} alt="Tiimo Logo Image" width={33} height={34}/>
                     </div>
                     <div>
                         <Image src={logo} alt="Tiimo Logo" width={50} height={14} className='ml-2'/>
                     </div>
                 </div>
-                <div className='nav flex py-4 ml-auto max-w-full'>
+                <div className='nav flex py-4 ml-auto text-base max-w-full'>
                     <ul className='hidden lg:flex'>
                         <li className='p-4 transition-colors duration-500 hover:text-slate-700'>
                             <Link href='/'>About</Link>

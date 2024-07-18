@@ -48,15 +48,15 @@ const MainSection = () => {
                 />
             </div>
             <div className='main-text text-center mt-12 md:mt-20 lg:mt-20 relative z-20'>
-                <div className='text-5xl mid:text-6xl md:text-6xl lg:text-7xl font-bold my-6 font-recoleta'>
+                <div className='text-5xl mid:text-6xl md:text-7xl lg:text-7xl font-bold my-6 font-recoleta'>
                     <div>Welcome to</div>
                     <div className='mt-2'>planning.</div>
                 </div>
                 <div className='my-7'>
                     <div className='pt-8'>
-                        <div className='text-xl font-extrabold leading-8 whitespace-normal mx-4'>Visualize time. Build focus. Make life happen.</div>
-                        <div className='text-lg text-slate-700 mt-7'>Get one week of Tiimo premium for free.</div>
-                        <div className='text-lg text-slate-700'>Start your free trial today. Cancel anytime.</div>
+                        <div className='text-xl text-custom-dark font-bold leading-8 whitespace-normal mx-4'>Visualize time. Build focus. Make life happen.</div>
+                        <div className='text-xl text-slate-700 mt-7'>Get one week of Tiimo premium for free.</div>
+                        <div className='text-xl text-slate-700'>Start your free trial today. Cancel anytime.</div>
                     </div>
                 </div>
                 <div className='block mx-6 sm:flex sm:space-x-4 justify-center pt-8'>
