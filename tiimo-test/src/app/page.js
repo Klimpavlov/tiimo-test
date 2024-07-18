@@ -8,6 +8,9 @@ export default function Home() {
     return (
         <main className="bg-page min-h-screen overflow-clip">
             <div className="relative z-50">
+                {/*<div>*/}
+                {/*    <div className='noise'></div>*/}
+                {/*</div>*/}
                 <Nav/>
                 <MainSection/>
                 <ChatBtn/>

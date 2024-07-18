@@ -70,10 +70,40 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to right, white, white, #9f85ff);
-    opacity: 0.8; /* Adjust opacity as needed */
+    /*background: linear-gradient(to right, white, white, #9f85ff);*/
+    /*background: radial-gradient(circle at 70% 50%, #9f85ff, white, transparent);*/
+
+
+    background: linear-gradient(to bottom, transparent 42%, #fff), linear-gradient(273deg, rgba(159, 133, 255, .62), rgba(255, 255, 255, 0) 47%),
+    radial-gradient(circle closest-side at 67% 37%, rgba(159, 133, 255, .98), rgba(255, 255, 255, 0) 91%),
+    linear-gradient(270deg, #ece7ff, transparent 52%),
+    linear-gradient(261deg, #f7f3f0 24%, #f7f3f0 68%, #f7f3f0 98%);
+    height: 92em;
+    background-size: auto, auto, auto, auto, auto;
+    opacity: 0.9; /* Adjust opacity as needed */
     z-index: 1; /* Ensure that the gradient overlay is above the background */
+
   }
 
+/*.noise {*/
+/*  opacity: .7;*/
+/*  mix-blend-mode: soft-light;*/
+/*  background-image:*/
+/*          radial-gradient(circle at 70% 50%, #9f85ff, white 50%, transparent),*/
+/*          linear-gradient(to left, white 100%, transparent 50%);  background-position: 0 0;*/
+/*  background-size: auto;*/
+/*  background-attachment: scroll;*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  bottom: 0;*/
+/*  left: 0;*/
+/*  right: 0;*/
+/*}*/
+  /*‹div class="blob w-[800px] h-[800px] rounded-[999px] absolute top-0 right-0 -z-fo blur-3xl bg-opacity-60 bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200"></div>*/
+  /*«div class="blob w-[/000px] h-[2000px] rounded-[999px] absolute bottom-0 left-0 -z-fo blur-3xl bg-opacity-60 bg-gradient-to-r from-red-200 via-gray-loo to-blue-loo*></div>*/
+  /*‹div class="blob w-[600px] h-[600pxl rounded-[999px] absolute bottom-0 left-0 -z-fo blur-3xl bg-opacity-60 bg-gradient-to-r from-slate-100 via-teal-100 to-blue-100"></div>*/
+  /*‹div class="blob w-[300px] h-[300px] rounded-[999px] absolute bottom-*/
+  /*[-20px] left-0 -z-10 blur-3xl bg-opacity-60 bg-gradient-to-r*/
+  /*from-green-200 via-cyan-200*/
 
 }
