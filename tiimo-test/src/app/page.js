@@ -6,7 +6,7 @@ import ChatBtn from "@/app/components/chatBtn";
 
 export default function Home() {
     return (
-        <main className="bg-page min-h-screen overflow-clip">
+        <main className="min-h-screen overflow-clip">
             {/*<div className="relative z-50">*/}
                 <div className='gradient-hero'>
                     <div className='noise'></div>
