@@ -53,10 +53,10 @@ const MainSection = () => {
                     <div className='mt-2'>planning.</div>
                 </div>
                 <div className='my-7'>
-                    <div className='pt-8'>
-                        <div className='text-xl text-custom-dark font-bold leading-8 whitespace-normal mx-4'>Visualize time. Build focus. Make life happen.</div>
-                        <div className='text-xl text-slate-700 mt-7'>Get one week of Tiimo premium for free.</div>
-                        <div className='text-xl text-slate-700'>Start your free trial today. Cancel anytime.</div>
+                    <div className='pt-6'>
+                        <div className='text-lg text-custom-dark font-bold leading-6 whitespace-normal mx-4'>Visualize time. Build focus. Make life happen.</div>
+                        <div className='text-lg text-slate-700 mt-7'>Get one week of Tiimo premium for free.</div>
+                        <div className='text-lg text-slate-700'>Start your free trial today. Cancel anytime.</div>
                     </div>
                 </div>
                 <div className='block mx-6 sm:flex sm:space-x-4 justify-center pt-8'>
