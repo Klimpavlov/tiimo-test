@@ -88,10 +88,10 @@ const Nav = () => {
                             <div
                                 className={`${
                                     nav ? 'max-h-screen' : 'max-h-0'
-                                } absolute top-24 left-0 right-0 mx-3 flex flex-col justify-start items-start bg-black border border-none rounded-3xl ease-in-out duration-500 shadow-2xl overflow-hidden`}
+                                } absolute top-24 left-0 right-0 mx-3 flex flex-col justify-start items-start bg-black border border-none rounded-3xl ease-in-out duration-500 delay-75 shadow-2xl overflow-hidden`}
                             >
                                 <div className='p-2'>
-                            <ul className='text-slate-300 p-4 space-y-4'>
+                            <ul className='custom-gray p-4 space-y-4'>
                                 <li className='transition-colors duration-500 hover:text-white'>
                                     <Link href='/'>About</Link>
                                 </li>

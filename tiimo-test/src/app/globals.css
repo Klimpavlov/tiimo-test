@@ -83,6 +83,14 @@
   /*  z-index: 1; !* Ensure that the gradient overlay is above the background *!*/
 
   /*}*/
+  /*.custom-3d-effect {*/
+  /*  transform: perspective(500px) rotateY(-20deg) rotateX(5deg);*/
+  /*  transition: transform 0.5s ease;*/
+  /*}*/
+
+  .custom-gray {
+  color: rgba(255, 255, 255, .7)
+  }
 
   .gradient-hero {
     z-index: -10;

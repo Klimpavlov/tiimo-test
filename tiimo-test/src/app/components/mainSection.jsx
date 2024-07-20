@@ -41,7 +41,7 @@ const MainSection = () => {
                 <TiltCard
                     imageSrc1={imgAppDownloadContentL1}
                     imageSrc2={imgAppDownloadContentL2}
-                    classNames="max-w-52 md:max-w-72 lg:max-w-72 mt-8 md:mt-20 lg:mt-20 group relative"
+                    classNames="max-w-52 md:max-w-48 lg:max-w-72 mt-8 md:mt-20 lg:mt-20 group relative"
                     // leftPosition={true}
                     leftImage={true}
                     isHovering={isHoveringLeft}
@@ -54,9 +54,9 @@ const MainSection = () => {
                 </div>
                 <div className='my-7'>
                     <div className='pt-6'>
-                        <div className='text-lg text-custom-dark font-bold leading-6 whitespace-normal mx-4'>Visualize time. Build focus. Make life happen.</div>
-                        <div className='text-lg text-slate-700 mt-7'>Get one week of Tiimo premium for free.</div>
-                        <div className='text-lg text-slate-700'>Start your free trial today. Cancel anytime.</div>
+                        <div className='text-lg tracking-normal text-custom-dark font-extra-thick mx-4'>Visualize time. Build focus. Make life happen.</div>
+                        <div className='text-lg tracking-normal text-slate-700 mt-7'>Get one week of Tiimo premium for free.</div>
+                        <div className='text-lg tracking-normal text-slate-700'>Start your free trial today. Cancel anytime.</div>
                     </div>
                 </div>
                 <div className='block mx-6 sm:flex sm:space-x-4 justify-center pt-8'>
@@ -74,7 +74,7 @@ const MainSection = () => {
                 <TiltCard
                     imageSrc1={imgAppDownloadContentR1}
                     imageSrc2={imgAppDownloadContentR2}
-                    classNames="max-w-60 md:max-w-64 lg:max-w-72 relative mt-20 group hidden md:block lg:block"
+                    classNames="max-w-60 md:max-w-48 lg:max-w-64 relative mt-20 group hidden md:block lg:block"
                     // leftPosition={false}
                     rightImage={true}
                     isHovering={isHoveringRight}
